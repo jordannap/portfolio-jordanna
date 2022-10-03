@@ -64,14 +64,8 @@
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="500px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
+              <%= image_tag "profile.jpg", alt: "Profile Image", height: "auto", width: "500px", class: "img-fluid rounded shadow-lg" %>
+
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
@@ -161,12 +155,8 @@
                     data-tilt-max-glare="0.5"
                     class="thumbnail rounded js-tilt"
                   >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/beenie.jpg"
-                      height="371"
-                    />
+                    <%= image_tag "beenie.jpg", alt: "Project Image", height: "371px", class: "img-fluid rounded shadow-lg" %>
+
                   </div>
                 </a>
               </div>
@@ -212,11 +202,8 @@
                     data-tilt-max-glare="0.5"
                     class="thumbnail rounded js-tilt"
                   >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/onenight.jpg"
-                    />
+                    <%= image_tag "onenight.jpg", alt: "Project Image", class: "img-fluid rounded shadow-lg" %>
+
                   </div>
                 </a>
               </div>
@@ -262,11 +249,9 @@
                     data-tilt-max-glare="0.5"
                     class="thumbnail rounded js-tilt"
                   >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/shroom.jpg"
-                    />
+
+                    <%= image_tag "shroom.jpg", alt: "Project Image", class: "img-fluid rounded shadow-lg" %>
+
                   </div>
                 </a>
               </div>
