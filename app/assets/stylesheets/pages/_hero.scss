@@ -1,0 +1,39 @@
+#hero {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  font-weight: 400;
+  color: whitesmoke;
+  padding: 0rem 5.6rem;
+  // margin-bottom: 0;
+  // top: 0;
+  // left: 0;
+  // bottom: 0;
+  // right: 0;
+  // z-index: -1;
+  background-image: linear-gradient(rgba(61, 30, 66, 0.676), rgba(44, 14, 49, 0.339)), url("https://images.unsplash.com/photo-1579397256979-cc326aefe273?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80");
+
+  .container {
+    height:90%;
+    padding: 0;
+  }
+  .text-color-main {
+    color: #916dae;;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    padding-bottom: 10px;
+    padding-top: 140px;
+   }
+
+  .menu {
+    a {
+      margin-top: 10px;
+      margin-left: 16px;
+    }
+  }
+
+}

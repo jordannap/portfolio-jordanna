@@ -1,0 +1,36 @@
+#about {
+  background-image: linear-gradient(
+    135deg,
+    #442e59 10%,
+    #271241 80%
+  );
+  color: white;
+  height: 100vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  justify-content: center;
+  align-items: center;
+
+  .section-title {
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 25px;
+  }
+  .about-wrapper__info-text {
+    text-align: justify;
+  }
+}
+
+.about-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+
+.fleche {
+  text-align: center;
+  padding-top: 40px;
+  a {
+    color:white;
+  }
+}
