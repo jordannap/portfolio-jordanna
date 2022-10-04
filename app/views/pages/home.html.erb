@@ -87,14 +87,16 @@
 
               </p>
               <span class="d-flex mt-3">
-                <a
+              <%= link_to "View Resume", "/assets/resume.pdf", class:"btn btn-primary" %>
+
+                <%# <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume btn btn-primary"
                   href="assets/resume.pdf"
                 >
                   View Resume
-                </a>
+                </a> %>
               </span>
 
 
@@ -146,19 +148,9 @@
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="http://www.beennie.com/" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <%= image_tag "beenie.jpg", alt: "Project Image", height: "371px", class: "img-fluid rounded shadow-lg" %>
-
-                  </div>
-                </a>
+              <div class="project-wrapper__image3 load-hidden">
+                <a rel="noreferrer" href="http://www.beennie.com/" target="_blank"><div class="thumbnail rounded js-tilt"><%= image_tag "beenie.jpg", alt: "Project Image", height: "371px", class: "img-fluid rounded shadow-lg b1" %><%= image_tag "beenie1.jpg", alt: "Project Image", height: "371px", class: "img-fluid rounded shadow-lg b2" %><%= image_tag "beenie2.jpg", alt: "Project Image", height: "371px", class: "img-fluid rounded shadow-lg b3" %>
+                  </div></a>
               </div>
             </div>
           </div>
