@@ -5,8 +5,8 @@
     #271241 80%
   );
   color: white;
-  height: 100vh;
-  // -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  min-height: 100vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   // clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   justify-content: center;
   align-items: center;
@@ -15,12 +15,17 @@
     text-align: center;
     padding-top: 20px;
     margin-bottom: 50px;
+    font-size: 1.8em;
   }
   .about-wrapper__info-text {
     text-align: justify;
   }
 
-
+  .row {
+    margin-bottom: 20px;
+  }
+  .container img {
+  }
 }
 
 .about-wrapper {
