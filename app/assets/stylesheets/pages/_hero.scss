@@ -5,7 +5,6 @@
   border-bottom: 0px;
   font-weight: 400;
   color: whitesmoke;
-
   background-image: linear-gradient(rgba(61, 30, 66, 0.676), rgba(44, 14, 49, 0.339)), url("https://images.unsplash.com/photo-1579397256979-cc326aefe273?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80");
 
   .container {
@@ -13,7 +12,7 @@
     margin-top: -120px;
   }
   .text-color-main {
-    color: #916dae;;
+    color: #916dae;
   }
 
   .hero-title {
@@ -45,6 +44,7 @@
   .img-fluid1 {
     border-radius: 20%;
     // opacity: 0.9;
+    border: solid #916dae;
   }
 
   .container2 {

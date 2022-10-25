@@ -19,10 +19,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
-    <script
+    <%# <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+    ></script> %>
 
   </head>
 
@@ -54,11 +54,16 @@
           <br>
           <p class="hero-cta ">
             <a rel="noreferrer" class="cta-btn cta-btn--hero btn btn-primary" href="#about">Know more</a>
-         </p>
+          </p>
 
-            </div>
+          </div>
+
           <div class="part2 col-12 col-lg-4">
-            <%= image_tag "pic.gif", alt: "Profile Image", width: "380px", class: "img-fluid1 " %>
+
+              <a rel="noreferrer" href="#about">
+                  <%= image_tag "pic.gif", alt: "Profile Image", width: "380px", class: "img-fluid1" %>
+                </div>
+              </a>
           </div>
         </div>
 
