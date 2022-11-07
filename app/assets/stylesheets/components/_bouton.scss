@@ -17,6 +17,14 @@
   --bs-btn-font-weight: 600;
 }
 
+
+#projects {
+
+  .btn-primary {
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
+}
 .btn-primary1 {
   --bs-btn-color: white;
   --bs-btn-bg: rgba(154, 109, 236, 0);
